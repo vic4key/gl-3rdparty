@@ -1,0 +1,5 @@
+#pragma once
+
+#include <SOIL2/SOIL2.h>
+
+#pragma comment(lib, "SOIL2.lib")
