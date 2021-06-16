@@ -1,5 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
+#pragma warning(disable : 4267 4244 4081)
+
 //
 // Copyright 2012-2015, Syoyo Fujita.
 //
