@@ -7,7 +7,7 @@ namespace glfreetype {
     // NEHE tutorial
 
     // This Holds All Of The Information Related To Any
-    // FreeType Font That We Want To Create. 
+    // FreeType Font That We Want To Create.
     struct font_data {
         float h;                      // Holds The Height Of The Font.
         std::vector<GLuint> textures; // Holds The Texture Id's
@@ -24,6 +24,6 @@ namespace glfreetype {
     // The Flagship Function Of The Library - This Thing Will Print
     // Out Text At Window Coordinates X, Y, Using The Font ft_font.
     // The Current Modelview Matrix Will Also Be Applied To The Text.
-    void print(font_data const & ft_font, int x, int y, std::string const & text);
+    void print(int l, int r, int b, int t, font_data const & ft_font, int x, int y, std::string const & text);
 
 }
